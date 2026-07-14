@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package todo;
 
-option go_package = "todo-list-grpc/proto";
+option go_package = "github.com/svxlxrd/todo-list-grpc/gen/proto";
 
 service TodoService {
   rpc CreateTask (CreateTaskRequest) returns (Task);
